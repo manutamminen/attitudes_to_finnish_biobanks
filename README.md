@@ -1,5 +1,14 @@
 # Data ja koodi artikkeliin "Perinnöllinen sairastumisalttius kiinnostaa kansalaisia"
 
+## Kyselyaineiston selitys
+
+| Koodi | Kysymys                                                                                                                                                                                                                                                          |
+|------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Q007  | Oletko antanut näytteesi biopankkiin?                                                                                                                                                                                                                            |
+| Q008  | Oletko valmis antamaan näytteesi biopankkiin?                                                                                                                                                                                                                    |
+| Q010  | Olisitko valmis osallistumaan kliiniseen lääketutkimukseen, jossa on mahdollisuus saada uudenlaista hoitoa (jonka vaikuttavuutta suhteessa nykyisiin hoitoihin ei vielä tunneta, ja jolla voi olla myös haittavaikutuksia), vai koetko parempana saada nykyisten |
+| Q011  | Jos perimästäsi paljastuisi sairauden mahdollisesti aiheuttava geeni, haluaisitko tietää siitä?                                                                                                                                                                  |
+| Q012  | Olisitko valmis tekemään konkreettisia elämäntapamuutoksia (ruokavalion muutos, liikunnan lisääminen) jos geenitutkimuksen perusteella riskisi sairastua esimerkiksi sydänsairauteen on korkeampi kuin väestöllä keskimäärin?                                    |
 
 ## Lue kyselyaineisto ja valmistele visualisointi
 
@@ -95,3 +104,36 @@ map_dfr(
 
 ```
 
+
+## Versioinformaatio
+
+R version 3.6.1 (2019-07-05)
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+Running under: macOS Catalina 10.15.1
+
+Matrix products: default
+BLAS/LAPACK: /Users/mavatam/miniconda3/lib/libopenblasp-r0.3.7.dylib
+
+locale:
+[1] C
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] broom_0.5.2     nnet_7.3-12     readxl_1.3.1    forcats_0.4.0  
+ [5] stringr_1.4.0   dplyr_0.8.3     purrr_0.3.2     readr_1.3.1    
+ [9] tidyr_1.0.0     tibble_2.1.3    ggplot2_3.2.1   tidyverse_1.2.1
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.2       cellranger_1.1.0 pillar_1.4.2     compiler_3.6.1  
+ [5] tools_3.6.1      zeallot_0.1.0    jsonlite_1.6     lubridate_1.7.4 
+ [9] lifecycle_0.1.0  gtable_0.3.0     nlme_3.1-141     lattice_0.20-38 
+[13] pkgconfig_2.0.3  rlang_0.4.0      cli_1.1.0        rstudioapi_0.10 
+[17] haven_2.1.1      withr_2.1.2      xml2_1.2.2       httr_1.4.1      
+[21] generics_0.0.2   vctrs_0.2.0      hms_0.5.1        grid_3.6.1      
+[25] tidyselect_0.2.5 glue_1.3.1       R6_2.4.0         fansi_0.4.0     
+[29] modelr_0.1.5     magrittr_1.5     backports_1.1.5  scales_1.0.0    
+[33] rvest_0.3.4      assertthat_0.2.1 colorspace_1.4-1 utf8_1.1.4      
+[37] stringi_1.4.3    lazyeval_0.2.2   munsell_0.5.0    crayon_1.3.4    
+> 
