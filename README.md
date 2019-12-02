@@ -143,7 +143,7 @@ prep_model <- function(dep, data)
 
 map_dfr(
     c("Q007", "Q008", "Q009", "Q010", "Q011", "Q012"),
-    ~ prep_model(., raaka)) %>%
+    ~ prep_model(., questionnaire)) %>%
     filter(p.value < 0.1,
            term != "(Intercept)")
 
