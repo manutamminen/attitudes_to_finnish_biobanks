@@ -10,6 +10,51 @@
 | Q011  | Jos perimästäsi paljastuisi sairauden mahdollisesti aiheuttava geeni, haluaisitko tietää siitä?                                                                                                                                                                  |
 | Q012  | Olisitko valmis tekemään konkreettisia elämäntapamuutoksia (ruokavalion muutos, liikunnan lisääminen) jos geenitutkimuksen perusteella riskisi sairastua esimerkiksi sydänsairauteen on korkeampi kuin väestöllä keskimäärin?                                    |
 
+
+| Koodi       | Vastaustyyppi |
+|------------ | --------------|
+| Q007 - Q012 | Kyllä         |
+| Q007 - Q012 | En            |
+| Q007 - Q012 | En osaa sanoa |
+
+
+| Koodi       | Kysymys                                                                                           |
+|------------ | --------------------------------------------------------------------------------------------------|
+| Q009        | Mitä mieltä olet perimään liittyvän (genomitiedon) käytöstä tutkimuksissa?                        |
+| Q013        | Mihin seuraavista ikäryhmistä kuulut?                                                             |
+| Tnuts2      | NUTS2                                                                                             |
+| TT11edu1    | Koulutus                                                                                          |
+| T_gender    | Sukupuoli                                                                                         |
+| T_Q001_2cat | Oletko koskaan aiemmin ollut tai oletko parhaillaan osallisena lääketieteellisessä tutkimuksessa? |
+
+
+| Koodi       | Vastaustyyppi                                                       |
+|------------ | --------------------------------------------------------------------|
+| Q009        | Näen perimään liittyvän tiedon käytön tutkimuksissa mahdollisuutena |
+| Q009        | Perimään liittyvän tiedon käyttö tutkimuksissa huolestuttaa minua   |
+| Q009        | Minulla ei ole asiasta mielipidettä                                 |
+| Q013        | 16-24-vuotias                                                       |
+| Q013        | 25-34-vuotias                                                       |
+| Q013        | 35-44-vuotias                                                       |
+| Q013        | 45-54-vuotias                                                       |
+| Q013        | 55-64-vuotias                                                       |
+| Tnuts2      | Helsinki-Uusimaa                                                    |
+| Tnuts2      | Etelä-Suomi                                                         |
+| Tnuts2      | Länsi-Suomi                                                         |
+| Tnuts2      | Pohjois- ja Itä-Suomi                                               |
+| Tnuts2      | Ahvenanmaa                                                          |
+| TT11edu1    | Ammatillinen perustutkinto, ammattikoulu                            |
+| TT11edu1    | Ylioppilas                                                          |
+| TT11edu1    | Opistoasteen ammatillinen tutkinto                                  |
+| TT11edu1    | Ylempi opisto-, AMK- tai alempi korkeakoulu                         |
+| TT11edu1    | Yliopistotutkinto tai ylempi                                        |
+| T_gender    | Nainen                                                              |
+| T_gender    | Mies                                                                |
+| T_Q001_2cat | Kyllä                                                               |
+| T_Q001_2cat | En                                                                  |
+
+
+
 ## Lue kyselyaineisto ja valmistele visualisointi
 
 ```r
